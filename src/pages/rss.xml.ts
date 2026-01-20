@@ -1,7 +1,7 @@
 import rss from "@astrojs/rss";
+import type { APIContext } from "astro";
 import { getCollection } from "astro:content";
 import type { BlogType } from "../content.config";
-import type { APIContext } from "astro";
 
 export async function GET(context: APIContext) {
   if (!context.site) {
@@ -13,8 +13,8 @@ export async function GET(context: APIContext) {
   const blogs: BlogType[] = await getCollection("blogs");
   return rss({
     // stylesheet: "/pretty-feed-v3.xsl",
-    title: "Ryze",
-    description: "Static minimal astro blog starter",
+    title: "Geraint Guan",
+    description: "Geraint Guan's personal software & product development blog.",
     site: context.site,
     trailingSlash: false,
     items: blogs.map((blog: BlogType) => ({

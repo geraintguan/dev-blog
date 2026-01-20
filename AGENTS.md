@@ -34,3 +34,10 @@ If you add or update dependencies remember to:
 ---
 
 Following these practices ensures that the agent-assisted development workflow stays fast and dependable. When in doubt, restart the dev server rather than running the production build.
+
+## Git Guidelines
+
+* Use conventional commits for your commit messages.
+* Prefer short concise commit messages over long detailed commit messages.
+* Assume the reader of your commit messages will be an experienced software engineer.
+* Avoid describing things in your commit messages that can be easily inferred from the changes.

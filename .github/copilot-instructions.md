@@ -80,7 +80,7 @@ This repository contains an Astro blog built on the Ryze template. Follow these 
 
 - **Use pnpm** for all package management operations
 - Run `pnpm install` to install dependencies
-- Update `pnpm-lock.yaml` when adding/updating dependencies
+- The project will use `pnpm-lock.yaml` (migrating from npm's `package-lock.json`)
 - Restart development server after dependency changes
 - Verify compatibility with Astro v5 before adding new packages
 

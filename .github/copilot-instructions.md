@@ -9,24 +9,26 @@ This repository contains an Astro blog built on the Ryze template. Follow these 
 - **TypeScript** - Typed JavaScript superset
 - **Tailwind CSS v4** - Utility-first CSS framework
 - **Vite** - Build tool and dev server
+- **pnpm** - Fast, disk space efficient package manager
 
 ## Development Workflow
 
 ### Starting Development
 
-- **ALWAYS use `npm run dev`** for local development with hot module replacement (HMR)
-- **NEVER run `npm run build`** during active development - it switches to production assets and breaks HMR
+- **ALWAYS use `pnpm dev`** for local development with hot module replacement (HMR)
+- **NEVER run `pnpm build`** during active development - it switches to production assets and breaks HMR
 - Development server runs at `http://localhost:4321`
 - Restart the dev server after installing dependencies
 
 ### Available Commands
 
-| Command             | Usage                              |
-| ------------------- | ---------------------------------- |
-| `npm run dev`       | Start local development server     |
-| `npm run build`     | Build production-ready static site |
-| `npm run preview`   | Preview production build locally   |
-| `npm run astro ...` | Run Astro CLI commands             |
+| Command            | Usage                              |
+| ------------------ | ---------------------------------- |
+| `pnpm dev`         | Start local development server     |
+| `pnpm build`       | Build production-ready static site |
+| `pnpm preview`     | Preview production build locally   |
+| `pnpm astro ...`   | Run Astro CLI commands             |
+| `pnpm install`     | Install dependencies               |
 
 ## Project Structure
 
@@ -76,7 +78,9 @@ This repository contains an Astro blog built on the Ryze template. Follow these 
 
 ## Dependencies
 
-- Update `package-lock.json` when adding/updating dependencies
+- **Use pnpm** for all package management operations
+- Run `pnpm install` to install dependencies
+- Update `pnpm-lock.yaml` when adding/updating dependencies
 - Restart development server after dependency changes
 - Verify compatibility with Astro v5 before adding new packages
 
@@ -104,10 +108,10 @@ This repository contains an Astro blog built on the Ryze template. Follow these 
 
 ## Testing Changes
 
-1. Start dev server with `npm run dev`
+1. Start dev server with `pnpm dev`
 2. Make changes and verify HMR works
 3. Test in browser at `http://localhost:4321`
-4. For production validation, build with `npm run build` and preview with `npm run preview`
+4. For production validation, build with `pnpm build` and preview with `pnpm preview`
 
 ## Additional Context
 

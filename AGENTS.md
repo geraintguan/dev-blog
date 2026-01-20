@@ -1,6 +1,6 @@
 # AGENTS Guidelines for This Repository
 
-This repository contains a Astro blog located in the root of this repository. When working on the project interactively with an agent (e.g. the Codex CLI) please follow the guidelines below so that the development experience – in particular Hot Module Replacement (HMR) – continues to work smoothly.
+This repository contains an Astro blog located in the root of this repository. When working on the project interactively with an agent (e.g. the Codex CLI) please follow the guidelines below so that the development experience – in particular Hot Module Replacement (HMR) – continues to work smoothly.
 
 This blog was built on top of a template called [Ryze](https://github.com/8366888C/Ryze) which is a modern, reader-friendly and content-first starter built with **Astro v5**, **Tailwind CSS v4**, and optimized for SEO and responsiveness across all devices. Perfect for personal blogs and content-focused websites.
 

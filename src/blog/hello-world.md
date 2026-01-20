@@ -9,4 +9,6 @@ featured: true
 editable: false
 ---
 
+<hr/>
+
 Hello, World! This is a blog entry for testing purposes.

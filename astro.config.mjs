@@ -1,9 +1,9 @@
 // @ts-check
-import { defineConfig } from "astro/config";
-import tailwindcss from "@tailwindcss/vite";
-import vitePluginSvgr from "vite-plugin-svgr";
 import react from "@astrojs/react";
 import sitemap from "@astrojs/sitemap";
+import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from "astro/config";
+import vitePluginSvgr from "vite-plugin-svgr";
 
 // https://astro.build/config
 export default defineConfig({
@@ -32,5 +32,5 @@ export default defineConfig({
   },
 
   output: "static",
-  site: "https://dev.geraint.io",
+  site: "https://zerotosmall.dev",
 });

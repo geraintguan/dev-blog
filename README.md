@@ -2,7 +2,7 @@
 
 **Ryze** is a modern, reader-friendly and content-first starter built with **Astro v5**, **Tailwind CSS v4**, and optimized for SEO and responsiveness across all devices. Perfect for personal blogs and content-focused websites.
 
-This blog is deployed at [dev.geraint.io](https://dev.geraint.io/) using GitHub Pages.
+This blog is deployed at [zerotosmall.dev](https://zerotosmall.dev/) using GitHub Pages.
 
 ## Features
 
@@ -144,7 +144,7 @@ This site is automatically deployed to GitHub Pages using GitHub Actions. The de
 2. Can also be manually triggered from the Actions tab
 3. Builds the static site using `npm run build`
 4. Deploys the `dist` folder to GitHub Pages
-5. Serves the site at the custom domain `dev.geraint.io`
+5. Serves the site at the custom domain `zerotosmall.dev`
 
 The workflow configuration can be found in `.github/workflows/deploy.yml`.
 
@@ -156,12 +156,13 @@ To enable GitHub Pages for this repository:
 2. Under **Source**, select "GitHub Actions"
 3. The site will be deployed automatically on the next push to `main`
 
-For the custom domain `dev.geraint.io`:
+For the custom domain `zerotosmall.dev`:
+
 1. Add a `CNAME` file in the `public/` directory (already done)
-2. Configure your DNS provider to point `dev.geraint.io` to GitHub Pages:
+2. Configure your DNS provider to point `zerotosmall.dev` to GitHub Pages:
    - Add a `CNAME` record pointing to `<username>.github.io`
    - Or add `A` records pointing to GitHub Pages IP addresses
-3. In repository Settings → Pages → Custom domain, enter `dev.geraint.io`
+3. In repository Settings → Pages → Custom domain, enter `zerotosmall.dev`
 4. Enable "Enforce HTTPS" once DNS propagation is complete
 
 ## License

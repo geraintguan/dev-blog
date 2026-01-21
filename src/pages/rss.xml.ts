@@ -13,8 +13,8 @@ export async function GET(context: APIContext) {
   const blogs: BlogType[] = await getCollection("blogs");
   return rss({
     // stylesheet: "/pretty-feed-v3.xsl",
-    title: "Geraint Guan",
-    description: "Geraint Guan's personal software & product development blog.",
+    title: "Zero → Small",
+    description: "A blog about the (fun) trials and tribulations of building, launching, and scaling software products by Geraint Guan.",
     site: context.site,
     trailingSlash: false,
     items: blogs.map((blog: BlogType) => ({

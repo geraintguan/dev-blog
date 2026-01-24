@@ -20,13 +20,13 @@
 
 /* COLOR SCHEME */
 .dark {
-  --background: var(--color-zinc-800);
+  --background: #060828;
   --foreground: var(--color-zinc-300);
   --accent: #ef47ae;
 }
 
 .light {
-  --background: var(--color-gray-100);
+  --background: #fdf6e3;
   --foreground: var(--color-gray-800);
   --accent: #ef47ae;
 }

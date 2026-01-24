@@ -12,7 +12,7 @@ editable: false
 <hr/>
 <br/>
 
-In every builder's journey, whether you're going it solo or with a small, tight knit founding team, where there are far more plates than there are hands to spin them. No matter how hard you or your team try, there's just no more stretch left to cover everything.
+In every builder's journey, whether you're going it solo or with a small, tight knit founding team, there comes an inflection point where there are far more plates than there are hands to spin them. No matter how hard you or your team try, there's just no more stretch left to cover everything.
 
 <br />
 
@@ -26,12 +26,31 @@ And so the inevitable conversation comes up: **Let's hire someone**. No one has 
 
 <br />
 
-## The best kind of team to lead? Team nobody
+## What's the best number people to manage? It's zero
 
 ## Hiring with a gun to your head
 
+<figure class="group">
+    <img class="border-none m-auto" src="/images/say-what-again.gif" alt="Video of woman with a blank expression staring into the camera listlessly saying 'I'm in a dream'." />
+</figure>
+
 ## Die a hero; Live a villain
+
+<figure class="group">
+    <img class="border-none m-auto" src="/images/die-a-hero-or-live-villain.gif" alt="Video of woman with a blank expression staring into the camera listlessly saying 'I'm in a dream'." />
+</figure>
 
 ## Do AI agents dream of electric sheep?
 
+<figure class="group">
+    <img class="border-none m-auto" src="/images/im-in-a-dream.gif" alt="Video of woman with a blank expression staring into the camera listlessly saying 'I'm in a dream'." />
+</figure>
+
 ## I'm not here for homework
+
+Yet here I am giving you reading material. These are a selection of excellent books that I've found to be hugely helpful and formative when it comes to engineering management and leadership:
+
+<br />
+
+- Radical Candor
+- Engineering management for the rest of us

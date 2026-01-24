@@ -22,7 +22,7 @@
 .dark {
   --background: var(--color-zinc-800);
   --foreground: var(--color-zinc-300);
-  --accent: var(--color-amber-400);
+  --accent: var(--color-amber-600);
 }
 
 .light {

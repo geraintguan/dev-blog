@@ -1,19 +1,24 @@
 ---
-import IconRss from "../assets/icons/rss.svg";
-import Navigation from "./Navigation.astro";
-import ThemeToggle from "./ThemeToggle";
+import { Image } from "astro:assets"
+import IconRss from "../assets/icons/rss.svg"
+import logo from "../assets/images/logo.png"
+import Navigation from "./Navigation.astro"
+import ThemeToggle from "./ThemeToggle"
 ---
 
 <header
   class="header-margin sticky top-0 z-0 flex items-center justify-between"
 >
-  <a
-    href="/"
-    class:list={[
-      "text-xl tracking-wider select-none",
-      Astro.url.pathname === "/" ? "text-accent" : "",
-    ]}>Zero → Small</a
-  >
+  <div class="flex flex-row">
+    <Image class="rounded-md" src={logo} alt="Logo" width={32} height={32} />
+    <a
+      href="/"
+      class:list={[
+        "m-auto ml-2 text-xl tracking-wider select-none",
+        Astro.url.pathname === "/" ? "text-accent" : "",
+      ]}>Zero → Small</a
+    >
+  </div>
   <div class="flex items-center justify-center gap-6">
     <Navigation />
 

@@ -20,9 +20,9 @@ editable: false
 ## Introduction
 
 I’ve been using Linear issue descriptions recently as a way to write persistent prompts with enough details about how a
-task which I would then manually copy and paste into the VSCode Copilot agent[^1] chat window. I’m finding this method
-to be really useful as it keeps the prompt I use for my agents in a place that’s easily accessible, well formatted, and
-in a contextually relevant location.
+task should be completed, which I would then manually copy and paste into the VSCode Copilot agent[^1] chat window. I’m
+finding this method to be really useful as it keeps the prompt I use for my agents in a place that’s easily
+accessible, well formatted, and in a contextually relevant location.
 
 <br />
 
@@ -50,15 +50,15 @@ Linear's Model Context Protocol (MCP) server.[^2] [^3]
 ## Configuring VSCode Copilot Agent
 
 1. Press the Configure Tools button next to the model selection in the Copilot chat window.
-2. In the tree, expand the **Linear** node in the tree by pressing the arrow to the left of it.
+2. In the tree, expand the **Linear** node by pressing the arrow to the left of it.
 3. Check the **Linear** operations you want your Copilot agent to be able to use; You should only add the ones you
-   expect your agent to use as adding unnecessary tools will eat your agent's effective context window and degrade it's
+   expect your agent to use as adding unnecessary tools will eat your agent's effective context window and degrade its
    performance. I recommend at least these:
    - `get_document` — Allows the agent to fetch attached documents that have been uploaded to Linear. Useful when you
      have relevant documents attached to your issue or issue's parent project that are useful context for the agent.
    - `get_issue` — Allows the agent to fetch the details of an issue. This is the most important operation!
    - `get_project` — Allows the agent to fetch the details of a project. Useful for the agent to be able to read the
-     issue's parent project (if it has one) and add the project details to it's context.
+     issue's parent project (if it has one) and add the project details to its context.
 
 ## (Optional) Creating a Linear task agent
 

@@ -4,8 +4,8 @@ import prettier from "eslint-plugin-prettier/recommended";
 export default [
   // add more generic rule sets here, such as:
   // js.configs.recommended,
-  ...astro.configs.recommended,
   prettier,
+  ...astro.configs.recommended,
   {
     rules: {
       // override/add rules settings here, such as:

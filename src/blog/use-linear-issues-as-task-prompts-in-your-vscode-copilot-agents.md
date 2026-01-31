@@ -147,6 +147,14 @@ For your TESTING plan you MUST include EXPLICIT instructions for the agent to fo
 - Include explicit instructions for the agent to execute these tests.
 ```
 
+## Demo
+
+Here's a recording of the workflow in action!
+
+<br />
+
+<img src="/demo-recording-0.gif" alt="Screen recording of agent workflow" />
+
 [^1]: You can learn more about agents in VSCode [here](https://code.visualstudio.com/docs/copilot/agents/overview).
 
 [^2]: You can find a good intro to the Model Context Protocol [here](https://modelcontextprotocol.io/docs/getting-started/intro).
